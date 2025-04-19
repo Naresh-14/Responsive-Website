@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+#nav-link1 {
+    color: black;
+}
+#nav-link2 {
+    color: black;
+}
+#nav-link3 {
+    color:black;
+}
+#nav-link4 {
+    color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: orange;
+    transform: scale(1.05);
+}
+
+/*  Product section */
+
+.main-heading {
+    font-size: 44px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: rgb(1, 1, 22);
+}
+
+.product-description {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+}
+
+.product-img {
+    width: 400px;
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    .main-heading {
+        font-size: 36px;
+    }
+    .product-description {
+        font-size: 16px;
+    }
+    .product-img {
+        width: 300px;
+    }
+}
+
+/* Small Devices (Phones, 480px and down) */
+@media screen and (max-width: 480px) {
+    .main-heading {
+        font-size: 28px;
+    }
+    .product-description {
+        font-size: 14px;
+    }
+    .product-img {
+        width: 200px;
+    }
+}
+
+
+/* Design tool */
+
+.design-tittle {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 46px;
+    text-decoration: underline;
+}
+
+.design-name {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(54, 5, 104);
+}
+
+.design-para {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: rgb(142, 141, 141);
+}
