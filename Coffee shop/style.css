@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: black;
+}
+
+#nav-link1 {
+    color: #f0f3f7;
+}
+
+#nav-link2 {
+    color: #f0f3f7;
+}
+
+#nav-link3 {
+    color: #f0f3f7;
+}
+
+#nav-link4 {
+    color: #f0f3f7;
+}
+
+#nav-link5 {
+    color: #f0f3f7;
+}
+
+#nav-link6 {
+    color: #f0f3f7;
+}
+
+#nav-link7 {
+    color: #f0f3f7;
+}
+
+.logo {
+    width: 40px;
+    height: 35px;
+}
+
+.Home-section {
+    background-image: url('https://res.cloudinary.com/dibthsxfr/image/upload/v1634275332/home-img_okxqys.jpg');
+    height: 350px;
+    background-size: cover;
+}
+
+.Home-section-heading {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.Home-section-description {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+
+.button {
+    border-width: 0px;
+    background-color: #806e26;
+    font-weight: 600;
+}
+
+.about-section-heading {
+    color: #705b07;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.about-section-sub-heading {
+    color: #ffffff;
+}
+
+.about-section-img {
+    width: 400px;
+    height: 300px;
+}
+
+.about-section-md-img {
+    width: 400px;
+    height: 248px;
+}
+
+.about-section-card {
+    background-color: #383838;
+    padding: 10px;
+}
+
+.about-section-card-question {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.about-section-card-description {
+    color: #b3b2b1;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.our-menu-section-card {
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.our-menu-section-heading {
+    color: white;
+}
+
+.our-menu-section-sub-heading {
+    color: #594906;
+}
+
+.our-menu-section-card-name {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.our-menu-section-card-price {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.our-menu-section-card-sub-price {
+    color: #696762;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.our-menu-section-sub-card {
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 35px;
+    padding-right: 30px;
+}
+
+.icon {
+    color: white;
+}
+
+.start-icon {
+    color: #bd7f0d;
+}
+
+.custamer-review-description {
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+.custamer-review-img {
+    width: 60px;
+    border-radius: 40px;
+}
+
+.our-blog-section-card {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.our-blog-section-card-heading {
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.our-blog-section-card-by-title {
+    color: #bd8c08;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.our-blog-section-card-description {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.follow-icon {
+    color: blue;
+    font-size: 28px;
+}
+
+.hr-line {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 90%;
+}

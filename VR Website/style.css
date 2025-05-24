@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo-vr {
+    width: 40px;
+    height: 40px;
+}
+
+.Controllers-btn {
+    width: 138px;
+    height: 38px;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #0a091f;
+}
+
+.vr-footer-section {
+    background-color: #19232d;
+}
+
+.vr-footer-section-img {
+    width: 80px;
+    height: 60px;
+}
+
+.vr-footer-section-icon-container {
+    background-color: #202b36;
+    border-radius: 40px;
+}
+
+.icon {
+    color: #959ead;
+    font-size: 28px;
+}
+
+.vr-footer-section-address {
+    color: #5a7184;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.vr-footer-section-contact-title {
+    color: #5a7184;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.icon-contact {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.contact-gmail {
+    color: #5a7184;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.list-card {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.list-name {
+    color: #5a7184;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.hr-line {
+    border-style: solid;
+    border-color: #5a7184;
+    border-width: 1px;
+}
+
+.icon-copy {
+    font-size: 18px;
+    color: #5a7184;
+}
+
+.copy-title {
+    color: #959ead;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.contact-btn {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-weight: 500;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.vr-section {
+    background-color: #222b36;
+    text-align: center;
+}
+
+.vr-main-heading {
+    color: white;
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    font-family: "roboto";
+    font-size: 15px;
+}
+
+.trending-heading {
+    color: #1f2933;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.trending-card {
+    background-color: white;
+
+}
+
+.amazon-heading {
+    color: #959ead;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.amazon-para {
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.read-more {
+    font-family: "roboto";
+    font-size: 12px;
+    font-weight: bold;
+    color: #1754a1;
+}
+
+.btn {
+    background-color: #1754a1;
+    font-family: "roboto";
+    font-size: 12px;
+    width: 138px;
+    height: 38px;
+}
+
+.products-heading {
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.image1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+}
+
+.vr-heading {
+    color: white;
+    font-family: "roboto";
+    font-size: 28px;
+
+}
+
+.vr-para {
+    color: white;
+    font-family: "roboto";
+    font-size: 18px;
+}
+
+.btn {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-family: "roboto";
+    font-size: 15px;
+    width: 100px;
+}
+
+.image2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+}
+
+.button {
+    background-color: #1754a1;
+    border-width: 0px;
+    font-family: "roboto";
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+}
+
+.vr-kit-heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.vr-kit-img {
+    width: 200px;
+    height: 200px;
+}
+
+.vr-kit-name {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+
+}
+
+#custom-nav-link1 {
+    color: #090d0a;
+}
+
+#custom-nav-link3 {
+    color: #090d0a;
+}
+
+#custom-nav-link4 {
+    color: #090d0a;
+}
+
+#custom-nav-link5 {
+    color: #090d0a;
+}
+
+#custom-nav-link6 {
+    color: #090d0a;
+}
+
+#custom-nav-link7 {
+    color: #090d0a;
+}
+
+#custom-nav-link8 {
+    color: #090d0a;
+}
+
+.img-1 {
+    height: 250px;
+
+}
+
+.improved-heading {
+    font-family: "roboto";
+    font-size: 32px;
+    color: #1f2933;
+    font-weight: bold;
+}
+
+.para1 {
+    color: #7b8794;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #1a2137;
+    font-family: "roboto";
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+.fearture-heading {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.heading-card {
+    background-color: white;
+}
+
+.img1 {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+.easy-heading {
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 23px;
+    color: #1f2933;
+}
+
+.instead-para {
+    font-family: "roboto";
+    font-size: 14px;
+    color: #7b8794;
+}
+
+.image-card {
+    text-align: center;
+    padding: 35px;
+}
+
+.span1 {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
