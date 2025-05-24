@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/1945/1945984.png" class="log" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" id="nav-link1" href="#Home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="nav-link2" href="#About">About</a>
+                <div class="d-flex">
+                    <div class="dropdown mr-1">
+                        <button type="button" class="btn  dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-expanded="false" data-offset="10,20">
+                            Course
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                            <a class="dropdown-item" id="nav-link3" href="#Course1">Course1</a>
+                            <a class="dropdown-item" id="nav-link4" href="#Course2">Course2</a>
+                            <a class="dropdown-item" id="nav-link5" href="#">Course3</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="nav-link" id="nav-link7" href="#Teachers">Teachers</a>
+                <a class="nav-link" id="nav-link8" href="#Blog">Blog</a>
+                <a class="nav-link" id="nav-link9" href="#Contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="home-section pt-5 pb-5" id="Home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636076020/home-img_zuue4z.png" class="w-100 mb-4" />
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="p-2 mb-4">
+                        <h1 class="home-section-heading">Your Course To Success</h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Fugiot, Numquam Doloremque
+                            Et At Soluta Ea Sunt Beatae quibusdam?
+                        </p>
+                        <button class="btn home-button btn-info">Get Stated</button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1635944161/category-1_r4zmrf.png" class="w-50 " />
+                        <h1 class="home-card-name pt-2">
+                            Computer Science
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1635944193/category-4_dtuht4.png" class="w-50 " />
+                        <h1 class="home-card-name pt-2">
+                            Social Science
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1635944175/category-2_nhgem1.png" class="home-card-img" />
+                        <h1 class="home-card-name pt-2">
+                            Biology & Life
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1635944185/category-3_qz87dl.png" class="w-50 " />
+                        <h1 class="home-card-name pt-2">
+                            Business Analysis
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1635944204/category-5_wa3bzm.png" class="w-50 " />
+                        <h1 class="home-card-name pt-2">
+                            Data Analysis
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4508/4508103.png" class="w-50 " />
+                        <h1 class="home-card-name pt-2">
+                            Graphic Design
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079541/course-7_turgqd.png" class="w-50 " />
+                        <h1 class="home-card-name pt-2">
+                            Digital Marketing
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-section pt-5 pb-5" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="about-section-heading">About Us</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1635944151/about-img_amrg2p.png" class="w-100 mb-4" />
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="p-2 mb-4">
+                        <h1 class="home-section-heading">I Will Stay With You Until Your Pass Your Exam</h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Fugiot, Numquam Doloremque
+                            Et At Soluta Ea Sunt Beatae quibusdam? Quos, Adisicl? Voluptas, At Qusiquam Sequl, Est Doloremque.
+                        </p>
+                        <button class="btn home-button btn-info">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Course1-section pt-5 pb-5" id="Course1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="about-section-heading mb-5">Course 1</h1>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4508/4508103.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Graphic Design
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079541/course-7_turgqd.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Digital Marketing
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079471/course-1_uaagbx.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Web Design
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079481/course-2_ycl8ij.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Seo Marketing
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079492/course-3_xaaiqx.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Science & Biology
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079500/course-4_iohf1k.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Music & Dance
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079541/course-7_turgqd.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Data Analysis
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079532/course-6_ibhkgx.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Maths & Statistics
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ">
+                    <div class="shadow-lg home-card p-3 mb-4 text-center bg-light">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636079555/course-8_zvxzy6.png" class="w-50 " />
+                        <h1 class="course-card-name pt-2">
+                            Email Marketing
+                        </h1>
+                        <p class="home-section-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Return Accusamus!
+                        </p>
+                        <button class="btn home-button btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Course2-section pt-5 pb-5" id="Course2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="about-section-heading mb-5">Course 2</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636081584/main-course-1_e6ef2t.png" class="w-70" />
+                        <div class="ml-3 text-left  mt-3">
+                            <h1 class="Course2-section-card-title  text-center p-2">Business</h1>
+                            <h1 class="Course2-section-card-question">Learning is what makes you perfect?</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Repellendus, Enim Lorem.
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-book pt-1 mr-1 text-warning"></i>
+                            <p class="Modules-name">12 Modules</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">6 Hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636081594/main-course-2_gs6hdn.png" class="w-70" />
+                        <div class="ml-3 text-left mt-3">
+                            <h1 class="Course2-section-card-title  text-center p-2">Language</h1>
+                            <h1 class="Course2-section-card-question">Learning is what makes you perfect?</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Repellendus, Enim Lorem.
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-book pt-1 mr-1 text-warning"></i>
+                            <p class="Modules-name">12 Modules</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">6 Hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636081605/main-course-3_p840ez.png" class="w-70" />
+                        <div class="ml-3 text-left mt-3">
+                            <h1 class="Course2-section-card-title  text-center p-2">Development</h1>
+                            <h1 class="Course2-section-card-question">Learning is what makes you perfect?</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Repellendus, Enim Lorem.
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-book pt-1 mr-1 text-warning"></i>
+                            <p class="Modules-name">12 Modules</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">6 Hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636081621/main-course-4_fssve6.png" class="w-70" />
+                        <div class="ml-3 text-left">
+                            <h1 class="Course2-section-card-title mt-3 text-center p-2">Teaching</h1>
+                            <h1 class="Course2-section-card-question">Learning is what makes you perfect?</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Repellendus, Enim Lorem.
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-book pt-1 mr-1 text-warning"></i>
+                            <p class="Modules-name">12 Modules</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">6 Hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636081627/main-course-5_iir60r.png" class="w-70" />
+                        <div class="ml-3 text-left">
+                            <h1 class="Course2-section-card-title mt-3 text-center p-2">Designing</h1>
+                            <h1 class="Course2-section-card-question">Learning is what makes you perfect?</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Repellendus, Enim Lorem.
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-book pt-1 mr-1 text-warning"></i>
+                            <p class="Modules-name">12 Modules</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">6 Hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636081638/main-course-6_z8tkrf.png" class="w-70" />
+                        <div class="ml-3 text-left mt-3">
+                            <h1 class="Course2-section-card-title  text-center p-2">Speaking</h1>
+                            <h1 class="Course2-section-card-question">Learning is what makes you perfect?</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur Adisipting Elit, Repellendus, Enim Lorem.
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-book pt-1 mr-1 text-warning"></i>
+                            <p class="Modules-name">12 Modules</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">6 Hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-teacher-section pt-5 pb-5" id="Teachers">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="about-section-heading mb-5">Our Teacher</h1>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="shadow p-3 text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636513564/teacher-1_qklwch.png" class="w-100" />
+                        <h1 class="our-teacher-section-name pt-2">John Deo</h1>
+                        <p class="our-teacher-section-title">Business</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="shadow p-3 text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636513572/teacher-2_po3d7f.png" class="w-100" />
+                        <h1 class="our-teacher-section-name pt-2">Evelyn </h1>
+                        <p class="our-teacher-section-title">Language</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="shadow p-3 text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636513580/teacher-3_uruajo.png" class="w-100" />
+                        <h1 class="our-teacher-section-name pt-2">Javier </h1>
+                        <p class="our-teacher-section-title">Development</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="shadow p-3 text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636513580/teacher-3_uruajo.png" class="w-100" />
+                        <h1 class="our-teacher-section-name pt-2">Johan</h1>
+                        <p class="our-teacher-section-title">Teaching</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a class="text-left text-info">Many more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-secton pt-5 pb-5" id="Blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="about-section-heading mb-5">Our Blogs</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636515091/blog-1_wodeiz.jpg" class="w-100" />
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-diagnoses pt-1  text-warning"></i>
+                            <p class="Modules-name ml-2">By Admin</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">21-Nov-2021</p>
+                        </div>
+                        <div class="ml-3 text-left  mt-3">
+                            <h1 class="Course2-section-card-question">Learning is what makes you Better</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur <br /> Adisipting Elit, Ipsum, Adi
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636515098/blog-2_yjggpx.jpg" class="w-100" />
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-diagnoses pt-1  text-warning"></i>
+                            <p class="Modules-name ml-2">By Admin</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">21-Nov-2021</p>
+                        </div>
+                        <div class="ml-3 text-left  mt-3">
+                            <h1 class="Course2-section-card-question">Learning is what makes you Better</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur <br /> Adisipting Elit, Ipsum, Adi
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636515109/blog-3_xu3wep.jpg" class="w-100" />
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-diagnoses pt-1  text-warning"></i>
+                            <p class="Modules-name ml-2">By Admin</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">21-Nov-2021</p>
+                        </div>
+                        <div class="ml-3 text-left  mt-3">
+                            <h1 class="Course2-section-card-question">Learning is what makes you Better</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur <br /> Adisipting Elit, Ipsum, Adi
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="Course2-section-card p-3 bg-light text-center mb-4">
+                        <img src="https://res.cloudinary.com/dibthsxfr/image/upload/v1636515132/blog-4_atnrbx.jpg" class="w-100" />
+                        <div class="d-flex flex-row mt-4 col-md-6">
+                            <i class="fas fa-diagnoses pt-1  text-warning"></i>
+                            <p class="Modules-name ml-2">By Admin</p>
+                            <i class="far fa-clock pt-1 mr-2 ml-3 text-warning"></i>
+                            <p class="Modules-name">21-Nov-2021</p>
+                        </div>
+                        <div class="ml-3 text-left  mt-3">
+                            <h1 class="Course2-section-card-question">Learning is what makes you Better</h1>
+                            <p class="home-section-description">
+                                Lorem Ipsum Dolor Sit Amet Consectetur <br /> Adisipting Elit, Ipsum, Adi
+                            </p>
+                            <button class="btn home-button btn-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Contacts-secton pt-5 pb-5 bg-secondary" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="Contacts-secton-title pl-4">Category</h1>
+                    <ul class="list-content">
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg> About</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Course1</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Course2</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Teachers</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Blog</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h1 class="Contacts-secton-title pl-4">Extra Link </h1>
+                    <ul class="list-content">
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg> My Account</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Feedback</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Help Center</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Certificates</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Newsletter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h1 class="Contacts-secton-title pl-4">Follow Us </h1>
+                    <ul class="list-content">
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg> Facebook</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Twitter</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Instagram</a>
+                        </li>
+                        <li>
+                            <a class="Contacts-secton-name"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="hr-line" />
+                <div class="text-center mb-4">
+                    <i class="ml-5 far fa-copyright icon text-white"></i>
+                    <span class="footer-section-create pt-2 ml-2 text-white">2021 by Naresh. Created with Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

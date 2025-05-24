@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#nav1 {
+    color: white;
+}
+
+#nav2 {
+    color: white;
+}
+
+#nav3 {
+    color: white;
+}
+
+#nav4 {
+    color: white;
+}
+
+#nav5 {
+    color: white;
+}
+
+#nav6 {
+    color: white;
+}
+
+.home-section-container {
+    background-image: url('https://res.cloudinary.com/dibthsxfr/image/upload/v1638684507/banner-bg_npvuic.jpg');
+    background-size: cover;
+}
+
+.home-section-head {
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.home-section-description {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: grey;
+}
+
+.home-img {
+    width: 90px;
+    margin-left: 17px;
+}
+
+.home-section-book-table {
+    width: 300px;
+}
+
+.featured-section-head {
+    text-decoration: underline;
+}
+
+.featured-section-img {
+    width: 160px;
+}
+
+.featured-section-name {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.featured-section-conainer {}
+
+.star-icon {
+    color: #ffc006;
+}
+
+.featured-section-price {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.button {
+    width: 138px;
+    height: 38px;
+    border-radius: 4px;
+    border-width: 0;
+}
+
+.icon-title {
+    color: green;
+    font-size: 16px;
+    font-family: 'Bree Serif';
+    font-weight: 500;
+}
+
+.icon-name {
+    color: #999997;
+    font-size: 14px;
+    font-family: 'Bree Serif';
+}
+
+
+.deal-section {
+    background-image: url('https://res.cloudinary.com/dibthsxfr/image/upload/v1638684507/banner-bg_npvuic.jpg');
+    background-size: cover;
+}
+
+.deal-section-title {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: green;
+}
+
+.deal-section-offer {
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.deal-section-description {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: gray;
+}
+
+
+
+
+
+.Course2-section-card-question {
+    font-size: 24px;
+}
+
+.Modules-name {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.our-teacher-section-name {
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: Blue;
+}
+
+.our-teacher-section-title {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: grey;
+}
+
+.Contacts-secton-title {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #020552;
+}
+
+.Contacts-secton-name {
+    color: #bababa;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.Contacts-secton-title {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #020552;
+}
+
+.Contacts-secton-name {
+    color: #bababa;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.list-content {
+    list-style-type: none;
+}
+
+.hr-line {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 90%;
+}
